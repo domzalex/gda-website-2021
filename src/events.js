@@ -13,7 +13,7 @@ export default class Events extends Component {
     }
 
     componentDidMount() {
-        axios.get('http://localhost:4000/getEvents').then(res => {
+        axios.get('https://gda-backend.herokuapp.com/getEvents').then(res => {
             this.setState({
                 data: res.data
             });
