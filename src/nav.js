@@ -8,7 +8,7 @@ function Nav() {
     return (
         <header>
             <nav>
-                <NavLink className="home-link" to="/"><h2>Grateful Dan Productions</h2></NavLink>
+                <NavLink className="home-link" to="/"><h2>The B.F.G. Band</h2></NavLink>
                 <ul>
                     <NavLink className="nav-link" activeClassName="selected" to="/about"><li>ABOUT</li></NavLink>
                     <NavLink className="nav-link" activeClassName="selected" to="/music"><li>MUSIC</li></NavLink>
@@ -17,9 +17,8 @@ function Nav() {
                     <NavLink className="nav-link" activeClassName="selected" to="/contact"><li>CONTACT</li></NavLink>
                 </ul>
                 <ul className="social-links">
-                    <li><a href="https://www.facebook.com/GratefulDanATL/" target="_blank"><i class="fab fa-facebook"></i></a></li>
                     <li><a href="https://www.youtube.com/channel/UCiuF_mTwcQRTYUVBGYbNnRA" target="_blank"><i class="fab fa-youtube"></i></a></li>
-                    <li><a href="mailto:gratefuldanatl@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a></li>
+                    <li><a href="mailto:thebfgbandatl@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a></li>
                 </ul>
             </nav>
         </header>

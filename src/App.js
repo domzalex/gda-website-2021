@@ -3,13 +3,17 @@ import Nav from './nav';
 import About from './about';
 import Contact from './contact';
 import Events from './events';
+import Merch from './merch';
+import Music from './music';
 import Footer from './footer';
 import {
   BrowserRouter as Router,
   Switch,
   Route,
 } from "react-router-dom";
+import axios from 'axios';
 import './App.css';
+
 
 function App() {
   return (
@@ -21,6 +25,8 @@ function App() {
         <Route path="/about" exact component={About} />
         <Route path="/events" exact component={Events} />
         <Route path="/contact" exact component={Contact} />
+        <Route path="/merch" exact component={Merch} />
+        <Route path="/music" exact component={Music} />
       </Switch>
     </div>
     </Router>
@@ -37,7 +43,7 @@ const Home = () => {
         <h1>The Southeast.<br /><br />Amplified.</h1>
       </section>
       <section className="home-three">
-        <h1>Full band experiences,<br /><br />Lessons,<br /><br />and more.</h1>
+        <Events />
         <Footer />
       </section>
     </div>
@@ -45,3 +51,4 @@ const Home = () => {
 }
 
 export default App;
+
