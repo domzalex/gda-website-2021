@@ -11,8 +11,8 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
-import axios from 'axios';
 import './App.css';
+import './mobile.css';
 
 
 function App() {
