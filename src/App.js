@@ -38,7 +38,7 @@ const Home = () => {
   return (
     <div>
       <section className="home">
-        <h1 className="main-home-h1">Introducing<br />the B.F.G. Band</h1>
+        <h1 className="main-home-h1">The B.F.G. Band</h1>
       </section>
       <section className="home-two">
         <h1>The Southeast.<br /><br />Amplified.</h1>

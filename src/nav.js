@@ -8,7 +8,7 @@ function Nav() {
     return (
         <header>
             <nav>
-                <NavLink className="home-link" to="/"><h2>B.F.G. BRODUCTIONS</h2></NavLink>
+                <NavLink className="home-link" to="/"><h2>B.F.G. PRODUCTIONS</h2></NavLink>
                 <ul>
                     <NavLink className="nav-link" activeClassName="selected" to="/about"><li>ABOUT</li></NavLink>
                     <NavLink className="nav-link" activeClassName="selected" to="/music"><li>MUSIC</li></NavLink>
