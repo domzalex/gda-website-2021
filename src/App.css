@@ -14,6 +14,7 @@ body {
   background-size: cover;
   height: 100vh;
   color: white;
+  font-family: 'Futura', sans-serif;
 }
 
 section {
@@ -30,13 +31,15 @@ section {
 }
 
 footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   height: 30px;
+  width: 100%;
   line-height: 30px;
   text-align: center;
   font-size: 18px;
   color: rgba(255,255,255,0.4);
+  z-index: 10;
 }
 footer a {
   color:rgba(255,255,255,0.6);
@@ -117,7 +120,7 @@ nav ul {
 .home-link {
   text-decoration: none;
   color: white;
-  font-family: 'Montserrat';
+  font-family: 'Futura';
   font-size: 26px;
   margin: 0 25px 0 0;
 }
@@ -173,7 +176,7 @@ h1 {
 /*************************/
 
 .contact-card {
-  width: 500px;
+  width: 700px;
   background-color: black;
   color: white;
   display: flex;
@@ -181,10 +184,16 @@ h1 {
   align-items: center;
   position: relative;
   border: solid 5px white;
+  border-radius: 5px;
+  transition: transform 0.1s ease;
+}
+
+.contact-card:hover {
+  transform: scale(1.05);
 }
 
 .contact-card img {
-  width: 490px;
+  width: 690px;
   border-bottom: solid 5px white;
 }
 
@@ -231,7 +240,7 @@ h1 {
 
 .events-list {
   width: 90%;
-  max-width: 1200px;
+  max-width: 1400px;
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -256,18 +265,18 @@ h1 {
 }
 
 .event-section h1 {
-  font-family: 'Yellowtail', sans-serif;
-  font-size: 64px;
+  font-family: 'Futura', sans-serif;
+  font-size: 48px;
 }
 
 .event-header {
   list-style: none;
   background-color: black;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1400px;
   display: flex;
   justify-content: space-between;
-  font-size: 20px;
+  font-size: 24px;
   padding: 10px;
   border-radius: 5px;
 }
@@ -284,7 +293,7 @@ h1 {
 
 .event {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1400px;
   list-style: none;
   display: flex;
   justify-content: space-between;
@@ -293,7 +302,7 @@ h1 {
 }
 
 .event li {
-  font-size: 20px;
+  font-size: 24px;
   color: black;
   border-bottom: solid 2px black;
   padding: 5px 10px;
@@ -325,6 +334,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .about-container {
@@ -336,18 +346,24 @@ h1 {
   padding-bottom: 100px;
 }
 
-.about-card img {
-  width: 500px;
-  border-radius: 20px;
-  z-index: -1;
-}
-.about-info h1 {
-  font-size: 56px;
-  margin-top: -100px;
+.about-card {
+  display: flex;
+  border: solid 5px white;
+  border-radius: 5px;
+  transition: transform 0.1s ease;
 }
 
-.about-info p {
-  font-size: 24px;
+.about-card:hover {
+  transform: scale(1.05);
+}
+
+.about-card img {
+  width: 490px;
+  border-bottom: solid 5px white;
+}
+
+.about-card p {
+  font-size: 36px;
   padding: 25px;
   line-height: 1.3em;
 }
@@ -358,11 +374,9 @@ h1 {
   justify-content: flex-start;
   align-items: center;
   position: relative;
-  border-radius: 20px;
   width: 500px;
   height: 100%;
   background: rgb(0,0,0);
-  background: linear-gradient(180deg, rgba(0,0,0,0) 35%, rgba(0,0,0,1) 60%);
 }
 
 
@@ -370,50 +384,3 @@ h1 {
 /*************************/
 /***** MUSIC STYLING *****/
 /*************************/
-
-.music-carousel {
-  width: 960px;
-  display: grid;
-  grid-template-columns: 960px 960px 960px;
-  overflow: hidden;
-}
-
-.video {
-  transition: transform 0.5s ease;
-}
-
-.prev,
-.next {
-  position: absolute;
-  top:50%;
-  width: 3rem;
-  height: 3rem;
-  background-color: rgba(0,0,0,0.2);
-  transform: translateY(-50%);
-  border-radius: 50%;
-  cursor: pointer; 
-  z-index: 1001; /* Sit on top of everything */
-  border: 2px solid white;
-}
-.prev {
-  left:0;
-}
-.next {
-  right:0;
-}
-.prev::after,
-.next::after {
-  content: " ";
-  position: absolute;
-  width: 10px;
-  height: 10px;
-  top: 50%;
-  left: 54%;
-  border-right: 2px solid white;
-  border-bottom: 2px solid white;
-  transform: translate(-50%, -50%) rotate(135deg);
-}
-.next::after {
-  left: 47%;
-  transform: translate(-50%, -50%) rotate(-45deg);
-}

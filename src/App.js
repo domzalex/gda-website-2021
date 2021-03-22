@@ -28,6 +28,7 @@ function App() {
         <Route path="/merch" exact component={Merch} />
         <Route path="/music" exact component={Music} />
       </Switch>
+      <Footer />
     </div>
     </Router>
   );
@@ -44,7 +45,6 @@ const Home = () => {
       </section>
       <section className="home-three">
         <Events />
-        <Footer />
       </section>
     </div>
   );

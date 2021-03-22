@@ -31,7 +31,7 @@ export default class Events extends Component {
 
         return (
             <section className="non-home-section event-section">
-                <h1>Upcoming Events</h1>
+                <h1>UPCOMING EVENTS</h1>
                 <h2>scroll for more</h2>
                 <div className="events-list">
                     <ul className="event-header">
