@@ -38,7 +38,10 @@ const Home = () => {
   return (
     <div>
       <section className="home">
-        <h1 className="main-home-h1">The B.F.G. Band</h1>
+        <div class="home-info">
+          <h1 className="main-home-h1">Grateful Dan in Costa Rica!</h1>
+          <img id="CRimg" src="https://i.ibb.co/BZV3dFr/GD-CR.jpg"></img>
+        </div>
       </section>
       <section className="home-two">
         <h1>The Southeast.<br /><br />Amplified.</h1>

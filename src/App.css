@@ -144,7 +144,7 @@ h1 {
   font-size: clamp(2rem, 9vh, 10rem);
 }
 .main-home-h1 {
-  font-size: clamp(2rem, 9vw, 12rem);
+  font-size: clamp(2rem, 6vw, 10rem);
 }
 .non-home-section h1 {
   font-size: clamp(2rem, 4vh, 10rem);
@@ -167,6 +167,21 @@ h1 {
   height: auto;
   z-index: 1;
   pointer-events: all;
+}
+
+.home-info {
+  position: absolute;
+  top: 90px;
+  width: 80vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#CRimg {
+  height: 70%;
+  margin-left: 50px;
 }
 
 
