@@ -39,8 +39,7 @@ const Home = () => {
     <div>
       <section className="home">
         <div class="home-info">
-          <h1 className="main-home-h1">Grateful Dan in Costa Rica!</h1>
-          <img id="CRimg" src="https://i.ibb.co/BZV3dFr/GD-CR.jpg"></img>
+          <h1 className="main-home-h1">The B.F.G. Band</h1>
         </div>
       </section>
       <section className="home-two">

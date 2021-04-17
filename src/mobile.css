@@ -161,7 +161,6 @@
       }
       .main-home-h1 {
         font-size: 3rem;
-        display: none;
       }
       .non-home-section h1 {
         font-size: clamp(2rem, 9vh, 10rem);
@@ -195,12 +194,6 @@
         justify-content: center;
         align-items: center;
       }
-      
-      #CRimg {
-        height: 80%;
-        margin-left: 0px;
-      }
-      
       
       
       /*************************/
