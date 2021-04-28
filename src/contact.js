@@ -3,6 +3,7 @@ import React from 'react';
 function Contact() {
     return (
       <section className="non-home-section contact-section">
+        <h1>Reach out!</h1>
           <div className="contact-card">
               <img src="https://i.ibb.co/SKSsCtF/bfg-banner-1.jpg" alt="BFG Logo"></img>
               <div className="contact-card-info">

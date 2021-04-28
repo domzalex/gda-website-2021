@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1320px) {
+@media only screen and (max-width: 900px) {
     *, *::before, *::after {
         box-sizing: border-box;
         margin: 0;
@@ -10,30 +10,16 @@
     
       
       body {
-        background: none;
+        background-color: black;
         background-size: cover;
         height: 90vh;
         color: white;
         font-family: 'Futura', sans-serif;
       }
-
-      body::before {
-        content: '';
-        background: url("https://i.ibb.co/C2sbfBj/bfg-background-mobile-1.jpg");
-        height: 100vh;
-        background-size: cover;
-        position: fixed;
-        top: 0px;
-        right: 0px;
-        bottom: 0px;
-        left: 0px;
-        opacity: 1;
-        z-index: -1;
-      }
       
       section {
         display: flex;
-        height: 90vh;
+        height: 80vh;
         justify-content: center;
         align-items: center;
       }
@@ -161,6 +147,7 @@
       }
       .main-home-h1 {
         font-size: 3rem;
+        transform: translateY(-40%);
       }
       .non-home-section h1 {
         font-size: clamp(2rem, 9vh, 10rem);
@@ -201,17 +188,21 @@
       /*************************/
       
       .contact-card {
-        width: 300px;
+        width: 100%;
         background-color: black;
         color: white;
         display: flex;
         flex-direction: column;
         align-items: center;
         position: relative;
-        border: solid 5px white;
+        border: none;
         border-radius: 0px;
-        transform: translateY(5%);
-        transition: transform 0s ease;
+        transform: none;
+        transition: none;
+      }
+
+      .contact-section h1 {
+        display: none;
       }
       
       .contact-card:hover {
@@ -219,8 +210,9 @@
       }
       
       .contact-card img {
-        width: 290px;
-        border-bottom: solid 5px white;
+        width: 100%;
+        padding-bottom: 10px;
+        border-bottom: solid 2px white;
       }
       
       
@@ -233,7 +225,7 @@
         color: white;
         display: inline-block;
         text-decoration: none;
-        font-size: 14px;
+        font-size: 20px;
         margin: 10px;
         position: relative;
       }
@@ -252,7 +244,7 @@
       }
       
       .contact-link:hover::before {
-        transform: scaleX(1);
+        transform: scaleX(0);
       }
       
       
@@ -268,15 +260,16 @@
       .events-list {
         width: 100%;
         max-width: 1400px;
-        background-color: white;
+        max-height: 500px;
+        background-color: black;
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 55%;
+        height: 65%;
         padding: 10px;
-        margin-top: 25px;
+        margin-top: 0;
         border-radius: 0px;
-        
+        border-bottom: solid 2px white;
       }
       
       .all-events {
@@ -292,8 +285,14 @@
       }
       
       .event-section h1 {
+        display: none;
         font-family: 'Futura', sans-serif;
         font-size: 28px;
+      }
+
+      .event-section h2 {
+        font-size: 18px;
+        opacity: 0.3;
       }
       
       .event-header {
@@ -326,13 +325,18 @@
         flex-direction: column;
         align-items: center;
         margin-bottom: 35px;
-        border-bottom: solid 5px black;
+        margin-top: 0px;
+        border-bottom: solid 1px white;
+      }
+
+      .event:nth-child(1) {
+        margin-top: 0px;
       }
       
       .event li {
         font-size: 20px;
-        color: black;
-        border-bottom: solid 1px black;
+        color: white;
+        border-bottom: solid 1px white;
         padding: 5px 10px;
       }
       
@@ -370,14 +374,14 @@
         position: absolute;
         top: 120px;
         display: grid;
-        grid-template-columns: 300px;
-        gap: 25px;
+        grid-template-columns: 100%;
+        gap: 100px;
         padding-bottom: 100px;
       }
       
       .about-card {
         display: flex;
-        border: solid 5px white;
+        border-bottom: solid 2px white;
         transition: transform 0.1s ease;
       }
       
@@ -386,8 +390,9 @@
       }
       
       .about-card img {
-        width: 290px;
-        border-bottom: solid 5px white;
+        width: 100%;
+        padding: 0 0 10px 0;
+        border-bottom: solid 2px white;
         border-right: none;
       }
       
@@ -403,7 +408,7 @@
         justify-content: flex-start;
         align-items: center;
         position: relative;
-        width: 300px;
+        width: 100%;
         height: 100%;
         background: rgb(0,0,0);
       }

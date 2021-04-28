@@ -10,8 +10,9 @@
 
 
 body {
-  background: url('https://i.ibb.co/L8CVWfw/gda-bg-1.jpg') no-repeat center center fixed;
-  background-size: cover;
+  /* background: url('https://i.ibb.co/L8CVWfw/gda-bg-1.jpg') no-repeat center center fixed;
+  background-size: cover; */
+  background-color: black;
   height: 100vh;
   color: white;
   font-family: 'Futura', sans-serif;
@@ -52,8 +53,7 @@ footer a {
 
 nav {
   position: fixed;
-  background-color: rgba(0,0,0,1);
-  backdrop-filter: blur(15px);
+  background-color: black;
   width: 100vw;
   height: 125px;
   padding: 0 30px;
@@ -196,8 +196,8 @@ h1 {
   transition: transform 0.1s ease;
 }
 
-.contact-card:hover {
-  transform: scale(1.05);
+.contact-section h1 {
+  margin-bottom: 25px;
 }
 
 .contact-card img {
@@ -359,12 +359,10 @@ h1 {
   gap: 50px;
 }
 
-.about-card:hover {
-  transform: scale(1.02);
-}
 
 .about-card img {
   width: 340px;
+  padding-right: 10px;
   border-right: solid 5px white;
 }
 
@@ -381,7 +379,6 @@ h1 {
   position: relative;
   width: 700px;
   height: 185px;
-  border: solid 5px white;
   transition: transform 0.1s ease;
   background: rgb(0,0,0);
 }
