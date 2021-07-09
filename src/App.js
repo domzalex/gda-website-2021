@@ -38,7 +38,7 @@ const Home = () => {
   return (
     <div>
       <section className="home">
-        <div class="home-info">
+        <div className="home-info">
           <h1 className="main-home-h1">The B.F.G. Band</h1>
         </div>
       </section>

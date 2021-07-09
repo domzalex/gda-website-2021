@@ -17,8 +17,8 @@ function Nav() {
                     <NavLink className="nav-link" activeClassName="selected" to="/contact"><li>CONTACT</li></NavLink>
                 </ul>
                 <ul className="social-links">
-                    <li><a href="https://www.youtube.com/channel/UCiuF_mTwcQRTYUVBGYbNnRA" target="_blank"><i class="fab fa-youtube"></i></a></li>
-                    <li><a href="mailto:thebfgbandatl@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCiuF_mTwcQRTYUVBGYbNnRA" rel="noreferrer" target="_blank"><i className="fab fa-youtube"></i></a></li>
+                    <li><a href="mailto:thebfgbandatl@gmail.com" rel="noreferrer" target="_blank"><i className="fas fa-envelope"></i></a></li>
                 </ul>
             </nav>
         </header>
