@@ -14,7 +14,10 @@ function Music() {
               <iframe src="https://www.youtube.com/embed/IfXMl82rfDY" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
               <iframe src="https://www.youtube.com/embed/kI-d9mqqC7M" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
               <iframe src="https://www.youtube.com/embed/jCOfdFhGkpA" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-              <iframe src="https://www.youtube.com/embed/eKeSZ16q8oA" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              <iframe src="https://www.youtube.com/embed/owoWzK9PyEE" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              <iframe src="https://www.youtube.com/embed/OjT3uKMJmXM" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              <iframe src="https://www.youtube.com/embed/VY24oB-XxPI" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              <iframe src="https://www.youtube.com/embed/s0SZTfgaKKw" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             </Carousel>
           </div>
       </section>
