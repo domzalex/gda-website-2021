@@ -10,7 +10,7 @@ function Music() {
   
           <h1>FOR YOUR EARS</h1>
           <div className="music-carousel">
-            <Carousel showThumbs={false}>
+            <Carousel showThumbs={false} infiniteLoop={true}>
               <iframe src="https://www.youtube.com/embed/IfXMl82rfDY" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
               <iframe src="https://www.youtube.com/embed/kI-d9mqqC7M" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
               <iframe src="https://www.youtube.com/embed/jCOfdFhGkpA" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
