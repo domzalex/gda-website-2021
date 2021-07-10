@@ -269,8 +269,8 @@
         align-items: center;
         height: 65%;
         margin-top: 0;
-        border-radius: 0px;
-        border-bottom: solid 2px rgb(205,205,205);
+        border-radius: 5px;
+        border-bottom: solid 5px rgb(177, 54, 54);
       }
       
       .all-events {
@@ -374,47 +374,52 @@
       .about-container {
         position: absolute;
         top: 120px;
-        display: grid;
-        grid-template-columns: 100%;
-        gap: 100px;
-        padding-bottom: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 20px;
       }
       
       .about-card {
-        display: flex;
-        border-bottom: solid 2px rgb(205,205,205);
-        transition: transform 0.1s ease;
+        max-width: 600px;
+        width: 100%;
+        height: 60vh;
+        background-color: rgb(205,205,205);
+        border-radius: 10px;
+        border-bottom: solid 5px rgb(177, 54, 54);
+        margin-bottom: 50px;
+        color: rgb(20,20,20);
+        text-align: center;
+        transition: .2s ease;
       }
       
       .about-card:hover {
-        transform: scale(1);
+        transform: scale(1.0);
+        z-index: 1;
       }
       
-      .about-card img {
-        width: 100%;
-        padding: 0 0 10px 0;
-        border-bottom: solid 2px rgb(205,205,205);
-        border-right: none;
-      }
-      
-      .about-card p {
-        font-size: 20px;
-        padding: 20px;
-        line-height: 1.3em;
-      }
-      
-      .about-card {
+      .about-card-title {
         display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
         align-items: center;
-        position: relative;
-        width: 100%;
-        height: 100%;
-        background: rgb(20,20,20);
+        justify-content: center;
+        background-color: rgb(20,20,20);
+        color: rgb(205,205,205);
+        border-radius: 12px;
+        border: solid 5px rgb(205,205,205);
+        padding: 10px;
+        text-align: center;
+        font-size: 24px;
+        height: 150px;
       }
       
-      
+      .about-card-info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+        font-size: 26px;
+        height: 55%;
+      }
       
       /*************************/
       /***** MUSIC STYLING *****/
